@@ -15,7 +15,88 @@ tlačítko twitter          #1da1f2
 */
 
 
-body {
-  background-color: #bdc3c7;
+body{
+  background-color:#bdc3c7 ;
+  width:40vh;
+  height:83vh;
+  box-shadow: 5px 10px;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
 }
+.hlavicka{
+  position:relative;
+}
+.foto {
+  max-width: 100%;
+}
+.obsah,
+.odkazy{
+  background-color:#31363b;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+.obsah{
+  margin-top:-5px;
+  padding-top: 15px;
+}
+.text,
+.druhy{
+  padding:10px;
+} 
 
+.logo{
+  background:#b92e81;
+  border-radius:50%;
+  position: absolute;
+  top:170px;
+  right:10px;
+}
+.druhy{
+  margin-bottom:-20px;
+}
+.portfolio{
+ display:inline-block;
+}
+.facebook{
+  /*flex-basis:50%;*/
+  display: inline;
+  border-top: 2px solid #3f464d;
+}
+.twitter{
+  /*flex-basis:50%;*/
+  display:inline;
+  border-top: 2px solid #3f464d;
+}
+.portfolio a:hover{
+  background-color:#e74c3c;
+}
+.odkazy {
+  border-top:2px solid #3f464d;
+}
+.odkazy a {
+  text-decoration: none;
+  color: white;
+}
+.facebook a:hover{
+  background-color:#3b5998;
+}
+.twitter a:hover{
+  background-color:#1da1f2;
+}
+.facebook a {
+  border-right:2px solid #3f464d;
+  background-color: #31363b;
+  padding-right:30px;
+ }
+.twitter a {
+  background-color: #31363b;
+}
+li{
+  background-color: #31363b;
+}
+li.facebook{
+  text-align:center;
+  border-top:2px solid #3f464d;
+}
