@@ -36,44 +36,49 @@ body{
 }
 h1{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px bold;
 }
 .obsah{
   margin-top:-5px;
   padding-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:10px;
 }
 .text,
 .druhy{
-  padding:10px;
+  padding:16px;
 } 
-
 .logo{
   background:#b92e81;
   border-radius:50%;
   position: absolute;
-  top:170px;
+  top:130px;
   right:10px;
 }
 .druhy{
   margin-bottom:-20px;
 }
 .portfolio{
- display:inline-block;
+ flex-basis:40vh;
+ padding:5px 5px 5px 30px;
+ border-bottom:2px solid #3f464d;
 }
 .facebook{
-  /*flex-basis:50%;*/
-  display: inline;
-  border-top: 2px solid #3f464d;
+  flex-grow:1;  
+  padding:5px 0px 5px 20px;
+  border-right: 2px solid #3f464d;
 }
 .twitter{
-  /*flex-basis:50%;*/
-  display:inline;
-  border-top: 2px solid #3f464d;
+  flex-grow:1;  
+  padding:5px 5px 5px 10px;
 }
-.portfolio a:hover{
-  background-color:#e74c3c;
-}
+
 .odkazy {
   border-top:2px solid #3f464d;
+  border-bottom:2px solid #3f464d;
+  display:flex;
+  flex-wrap:wrap;
 }
 .odkazy a {
   text-decoration: none;
@@ -81,22 +86,16 @@ h1{
 }
 .facebook a:hover{
   background-color:#3b5998;
+  padding:5px;
 }
 .twitter a:hover{
   background-color:#1da1f2;
+  padding:5px 8px;
 }
-.facebook a {
-  border-right:2px solid #3f464d;
-  background-color: #31363b;
-  padding-right:30px;
- }
-.twitter a {
-  background-color: #31363b;
+.portfolio a:hover{
+  background-color:#e74c3c;
+  padding:5px 15px;
 }
-li{
-  background-color: #31363b;
-}
-li.facebook{
-  text-align:center;
-  border-top:2px solid #3f464d;
+.odkazy{
+  padding-left:0px;
 }
